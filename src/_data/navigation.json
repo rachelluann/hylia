@@ -1,14 +1,14 @@
 {
   "items": [
     {
-      "text": "Newsletter",
-      "url": "/newsletter.html",
-      "external": ""
-    },
-    {
       "text": "Home",
       "url": "/",
       "external": false
+    },
+    {
+      "text": "Newsletter",
+      "url": "/newsletter.html",
+      "external": ""
     },
     {
       "text": "GitHub",
