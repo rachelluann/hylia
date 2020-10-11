@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: " hylia/src/index.md"
+  label: Index
 - type: heading
   label: Content
 - type: directory
@@ -18,10 +21,6 @@ sections:
   label: Pages
   create: documents
   match: "*.md"
-- type: document
-  path: " hylia/src/index.md"
-  label: Index
-  match: "**/*"
 - type: heading
   label: Globals
 - type: document
