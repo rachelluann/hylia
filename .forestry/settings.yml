@@ -18,9 +18,11 @@ sections:
   label: Pages
   create: documents
   match: "*.md"
-- type: document
-  path: " hylia/src"
+- type: directory
+  path: src
   label: Index
+  create: documents
+  match: "*.md"
 - type: heading
   label: Globals
 - type: document
