@@ -19,7 +19,7 @@ sections:
   create: documents
   match: "*.md"
 - type: document
-  path: " hylia/src/index.md"
+  path: " hylia/src"
   label: Index
 - type: heading
   label: Globals
