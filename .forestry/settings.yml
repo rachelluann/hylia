@@ -28,6 +28,10 @@ sections:
 - type: document
   path: src/_data/tokens.json
   label: Theme settings
+- type: document
+  path: src/_data/navigation.json
+  label: Navigation
+  match: "**/*"
 upload_dir: src/images
 public_path: "/images"
 front_matter_path: ''
